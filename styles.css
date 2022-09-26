@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: tan;
+    background-image: url('https://freedesignfile.com/upload/2016/10/Beautiful-sky-Stock-Photo-01.jpg');
+    background-repeat: no-repeat;
+    background-size: 1750px;
+}
+
+.card {
+    background: white;
+    color: skyblue;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    font-style:oblique;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    cursor: pointer;
+}
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 1em;
+    border-radius: 18px;
+    background: skyblue;
+    font-size: 110%;
+    font-style: oblique;
+    width: calc(100% - 80px);
+}
+
+h1 {
+    font-style: oblique;
+    color: white;
+    padding-bottom: 500px;
+    text-align: center;
+    font-size: 100px;
+}
