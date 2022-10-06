@@ -11,7 +11,7 @@ body {
 }
 
 .card {
-    background: white;
+    background: whitesmoke;
     color: skyblue;
     padding: 2em;
     border-radius: 30px;
@@ -25,6 +25,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 button {
@@ -34,6 +35,7 @@ button {
     height: 2.5em;
     width: 2.5em;
     cursor: pointer;
+    color: skyblue;
 }
 .search-bar {
     border: none;
